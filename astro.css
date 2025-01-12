@@ -1,0 +1,198 @@
+
+.navbar{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 0 2px 1px #ddd;
+    top: 0;
+    padding: 0;
+    box-sizing: 400*40;
+    display: flex;
+    justify-content: space-evenly;
+    border-image-width: 10px
+}
+.one{
+    height:10px;
+    width:13px;
+    color: blue;
+}
+.baba{
+    background-image: href="astrloger";
+}
+.title{
+    justify-content: left;
+    text-align: left;
+    padding-left: 0%;
+}
+.border{
+    text-align: end;
+}
+
+/**herosecton**/
+.hero section{
+    background-image: url(C:\Users\Admin\Desktop\Astrotalk\image.png);
+    height: 500px;
+    background-size: cover;
+}
+.section{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+.container{
+    height: 399px;
+    width: 87%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 80px;s
+    padding-right: 90px;
+}
+.inner-banner{
+    background: linear-gradient(90deg, #f0df20, #fff 50%, #f0df20);
+    height: 196px;
+    width :100%px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50pxpx;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: top;
+
+}
+.para{
+    font-style: bolder;
+    text-align: left;
+    font-size: xx-large;
+    width: 100%;
+    height: 20px;
+    font-weight: 600;
+    color: #444;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+.Chat{
+    font-size: 40px;
+    font:19px;
+    color: #212529;
+    margin: 0px,0px,0px;
+    width: 100%;
+    }
+.buttton{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: solid;
+}
+.boxes{
+    padding-top:5px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: #ffffff;
+    height: 160px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    .Talk{
+        height: 110px;
+    }
+    .p{
+        text-decoration:solid bold black;
+    }
+}
+
+.box2{
+    background-color: #ffffff;
+    height: 160px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    .call{
+        height: 110px;
+    }
+}
+.box3{
+    background-color: #ffffff;
+    height: 160px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    .Shop{
+        height:11px ;
+    }
+}
+.box4{
+    background-color: #ffffff;
+    height: 160px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    .Pooja{
+        height: 110px;
+}
+.main_box{
+    height: 800px;
+    width: 100px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:5px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+#boxx,.p {
+    height: 400px;
+    width: 150px;
+    background-color: rgb(215, 48, 48);
+}
+.effect,p{
+    pointer-events: visiblePainted;
+    position: relative;
+}
+.effect{
+position:absolute;
+}
+.box{
+    height: 500px;
+    width: 300px;
+    background-color: #f0df20;
+}
+#secondpart{
+    display: flex;
+}
+.footer{
+    display: flex;
+    background:linear-gradient(#f0df20,#000000de);
+    size: 780px*174px;
+    padding: 30px 0px;
+}
+.header_top_bar{
+    
+}
+.image{
+   height: 50px;
+}
