@@ -1,0 +1,149 @@
+.header{
+	   height:25px;
+	   background-color:#630b62;
+	   display:flex;
+	   padding:15px 15px;
+	   justify-content:right;
+	   space-between:2px;
+	   padding-bottom:20px;
+	   vertical-align:center-right;
+	   }
+	.email,.contact,a{
+	   text-decoration:none;
+	    color:#ffffff;
+		padding-bottom:30px;
+	    }
+	.navbar{
+	  height:70px;
+	  background-color:#fffff;
+	  display:flex;
+	  margin-top:0;
+	  padding-left:20px;
+	  padding-right:20px;
+	  }
+	.logo,img{
+	  height:80px;
+	  margin-left:20px;
+	  margin-bottom:50px;
+	  padding-bottom:20px;
+	  padding-right:30px;
+	  }
+	.fb{
+	  height:30px;
+	  width:30px;
+	  background-color:#554ccf;
+	  text-align:center;
+	  margin:5px
+	  }
+	  .linkedin{
+	  height:30px;
+	  width:30px;
+	  background-color:#4c71cf;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .twitter{
+	  height:30px;
+	  width:30px;
+	  background-color:blue;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .insta{
+	  height:30px;
+	  width:30px;
+	  background-color:#ba298c;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .youtube{
+	  height:30px;
+	  width:30px;
+	  background-color:#c9204d;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .socio-link{
+	  display:flex;
+	  padding:10px;
+	  justify-content:right-side;
+	  padding-left:300px;
+	  }
+	  .solink:hover{
+		height:35px;
+	  width:35px;
+	  align-items: center;
+	  margin:5px;
+	  border: 2px solid black;
+	}
+	.list > li:hover{
+		background-color: rgb(51, 24, 60);
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		border-radius: 1rem;
+	  }
+	  i{
+	  text-align:center;
+	  padding-top:5px;
+	  }
+	  .heading{
+	  }
+	  .sidebar{
+	  background-color:#630b62;
+	  text-align:leftwards;
+	  width:300px;
+	  }
+	.innerdiv{
+	  padding:20px;
+	  }
+	.innerdiv,div{
+	  margin-top:20px;
+	  }
+	.highlight a{
+	  background-color:black;
+	  display:block;
+	  padding:10px;
+	  width:100%;
+	  }
+	.list ul li{
+	  padding-bottom:20px;
+	  }
+	li{
+	  padding-bottom:20px;
+	  color:white;
+	  }
+	 .container{
+	 display:flex;
+	 }
+	footer{
+	background-color:black;
+	display:flex;
+	}
+	.foot{
+	 padding:50px;
+	 color:black;
+	 }
+	.adress{
+	color:white;
+	padding:50px;
+	 }
+	.image{
+		display:block;
+		background-color:#630b62;
+		ackground-image:url("https://img.freepik.com/premium-photo/darkened-desk-drama-dark-office-background-photo_960396-58280.jpg");
+		height:100px;
+		background-size:cover;
+		border:1px solid black;
+        text-align:center;
+		justify-content:center;
+		vertical-align:middle;
+		margin-top:0;
+	}
+	
+    .image,h2:after{
+		color:white;
+		text-align:center;
+	}
+	

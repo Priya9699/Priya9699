@@ -1,0 +1,505 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width initial scale 2.0">
+<meta http-equiv="refresh" content="600">
+<meta name="keywords" contet="portfolio,education,skills">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Task</title>
+</head>
+<style>
+    .header{
+	   height:25px;
+	   background-color:#630b62;
+	   display:flex;
+	   padding:15px 15px;
+	   justify-content:right;
+	   space-between:2px;
+	   padding-bottom:20px;
+	   vertical-align:center-right;
+	   }
+	.email,.contact,a{
+	   text-decoration:none;
+	    color:#ffffff;
+		padding-bottom:30px;
+	    }
+	.navbar{
+	  height:70px;
+	  background-color:#fffff;
+	  display:flex;
+	  margin-top:0;
+	  padding-left:20px;
+	  padding-right:20px;
+	  }
+	.logo,img{
+	  height:80px;
+	  margin-left:20px;
+	  margin-bottom:50px;
+	  padding-bottom:20px;
+	  padding-right:30px;
+	  }
+	.solink:hover{
+		height:35px;
+	  width:35px;
+	  align-items: center;
+	  margin:5px;
+	  border: 2px solid black;
+	}
+	.fb{
+	  height:30px;
+	  width:30px;
+	  background-color:#554ccf;
+	  text-align:center;
+	  margin:5px
+	  }
+	  .linkedin{
+	  height:30px;
+	  width:30px;
+	  background-color:#4c71cf;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .twitter{
+	  height:30px;
+	  width:30px;
+	  background-color:blue;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .insta{
+	  height:30px;
+	  width:30px;
+	  background-color:#ba298c;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .youtube{
+	  height:30px;
+	  width:30px;
+	  background-color:#c9204d;
+	  text-align:center;
+	  margin:5px;
+	  }
+	  .socio-link{
+	  display:flex;
+	  padding:10px;
+	  justify-content:right-side;
+	  padding-left:300px;
+	  transition-duration: 5s;
+	  }
+	  i{
+	  text-align:center;
+	  padding-top:5px;
+	  }
+	  .sidebar{
+	  background-color:#630b62;
+	  text-align:leftwards;
+	  width:300px;
+	  }
+	.innerdiv{
+	  padding:20px;
+	  }
+	.innerdiv,div{
+	  margin-top:20px;
+	  }
+	.highlight a{
+	  background-color:black;
+	  display:block;
+	  padding:10px;
+	  width:100%;
+	  }
+	.list ul li{
+	  display: flex;
+	  padding:20px;
+	  text-align: center;
+	  justify-content: center;
+	  }
+	  .list > li:hover{
+		background-color: rgb(51, 24, 60);
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		border-radius: 1rem;
+	  }
+	li{
+	  padding-bottom:20px;
+	  color:white;
+	  }
+	 .container{
+	 display:flex;
+	 }
+	.main{
+	 padding:0;
+	 margin:0;
+	 width:100%;
+	 height:530px;
+	 }
+	#xy{
+	  width:100%;
+	  height:530px;
+	  padding:0;
+	  margin:0;
+	  margin-top:19px;
+	  }
+	.content{
+	  height:140px;
+	  background-color:#630b62;
+	  color:white;
+	  margin:0;
+	  /* justify-content:flex-start;
+	  align-items: flex-start; */
+	  /* text-align: center; */
+	  }
+	  .content-anime{
+	 animation-name: scroll;
+     animation-duration: 10s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+	  }
+	  /* .content-anime > p{
+      margin-left: 40px;
+	  } */
+	 .content p{
+	 margin:0;
+	 padding-top:40px;
+	 }
+	.welcome{
+	 width:60%;
+	 padding:30px;
+	 padding-top:10px;
+	 }
+	.headline{
+	 background-color:#630b62;
+	 height:55px;
+	 color:white;
+	 text-align:center;
+	 padding:10px;
+	 }
+	.Latest_News{
+	 height:180px;
+	 width:250px;
+	 background-color:white;
+	 padding:0px;
+	 padding-top:0;
+	 padding:30px;
+	 padding-top:10px;
+	 border-bottom:1px solid black;
+	 }
+	.select{
+	display:flex;
+	width:100%;
+	}
+	.head{
+	background-color:#630b62;
+	height:50px;
+	 color:white;
+	 text-align:start;
+	 padding:0px;
+	 padding-top:5px;
+	}
+	.Vision > .headline > ul{
+		color: black !important;
+	}
+	.head-scroll{
+	 animation-name: scroll;
+     animation-duration: 5s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+	}
+	footer{
+	background-color:black;
+	display:flex;
+	animation: footer 5s 1 ease-in 5s;
+	}
+	.foot{
+	 padding:50px;
+	 color:white;
+	 }
+	.adress{
+	color:white;
+	padding:50px;
+	 }
+	 @keyframes scroll{
+	from{
+    }
+    to{
+        transform: translateX(80%);
+    }
+	 }
+</style>
+<body>
+<div class="header">
+ <div class="email">
+   <i class="fa-regular fa-envelope"></i>
+   <a href="#">disp-agri@kkwagh.edu.in</a>
+</div>
+ <div class="contact">
+  <i class="fa-regular fa-phone"></i>
+  <a href="#">(+91)(0253)2555202,2555224,2555221</a>
+  </div>
+  <div>
+	<button>MODE</button>
+  </div>
+</div>
+<div class="navbar"> 
+ <div class="logo">
+   <img src="https://agri.kkwagh.edu.in/assets/front_end/images/logo.png">
+ </div>
+ <div class="heading"> 
+  <p>K.K. Wagh Education Society`s</p>
+  <h3>K.K.Wagh Agriculture & Agriculture Allied Colleges</h3>
+  <p>( Affiliated to Mahatma Phule Krishi Vidyapeeth, Rahuri )</p>
+ </div>
+ <div class="socio-link">
+  <div class="fb solink">
+    <a href="https://www.facebook.com/agri.kkwagh/">
+	<i class="fa-brands fa-facebook-f"></i>
+	</a>
+  </div>
+  <div class="linkedin solink">
+    <a href="https://www.linkedin.com/company/k-k-wagh-agriculture-agricultural-allied-colleges/">
+	<i class="fa-brands fa-linkedin-in"></i>
+	</a>
+  </div>
+  <div class="twitter solink">
+    <a href="">
+    <i class="fa-brands fa-twitter"></i>
+	</a>
+	</div>
+  <div class="insta solink">
+    <a href="https://www.instagram.com/kkwaghagri_allied/">
+	<i class="fa-brands fa-instagram"></i>
+	</a>
+  </div>
+  <div class="youtube solink">
+    <a href="https://www.youtube.com/channel/UCqosGclstuWBRedb37kLgkw/videos">
+	<i class="fa-brands fa-youtube"></i>
+	</a>
+  </div>
+ </div>
+ </div>
+ <!--sidebar-->
+ <div class="container"> 
+ <div class="sidebar">
+ <div class="innerdiv">
+ <div>
+ <a href="k.k.wagh.html"><b>Home</b></a>
+ </div>
+ <div>
+  <a href="chairman.html"><b>Chairman`s Message</b></a>
+  </div>
+  <div>
+  <a href="sailentfetures.html"><b>Silent Features</b></a>
+  </div>
+  <div>
+  <a href="scope.html"><b>Scope For Agriculture</b></a>
+  </div>
+  <div>
+  <a href="career.html"><b>K.k.Wagh career Acadamy</b></a>
+  </div>
+  <div>
+  <a href="opportunity.html"><b>Career Opportunity</b></a>
+  </div>
+  <div class="highlight">
+  <a href=""><b>Admissions</b></a>
+  <ul type="none" class="list">
+    <li>Admission Process</li>
+	<li>Eligiblity & Intake</li>
+	<li>Admission leaflet</li>
+	<li>Admission News&Updates</li>
+   </ul>
+   </div>
+   <div class="highlight">
+   <a href=""><b>About K.K.Wagh Education Sociaty</b></a>
+   <ul type="none" class="list">
+    <li>Board of Director</li>
+	<li>Advisory Committee</li>
+	<li>Institute Run by Society</li>
+	<li>About K.K.Wagh Education Sociaty</li>
+   </ul>
+  </div>
+  <div class="highlight">
+  <a href=""><b>Agricultural Faculties</b></a>
+  <ul type="none" class="list">
+    <li>College of Agriculture</li>
+	<li>College of Engineering</li>
+	<li>Biotechnology</li>
+	<li>Agroculture Business Management</li>
+	<li>Horticulture</li>
+   </ul>
+   </div>
+   <div class="highlight">
+   <a href=""><b>Central Library</b></a>
+   <ul type="none" class="list">
+    <li>Search E Resource</li>
+	<li>Our Resource</li>
+	<li>Infrastructure</li>
+	<li>E Library</li>
+	<li>Services Offered</li>
+	</li>Library Timing</li>
+	<li>Membership of other Libraries</li>
+	<li>Team Members<li>
+	<li>Journals,Magazines And News Papers</li>
+	<li>Best Practices</li>
+	<li>Photo Gallery</li>
+   </ul>
+   </div>
+   <div class="highlight">
+   <a href=""><b>Major Recruiters Facilities</b></a>
+   <ul type="none" class="list">
+    <li>Counselling</li>
+	<li>Hostel And Mess</li>
+	<li>Medical</li>
+	<li>Sport Facility</li>
+	<li>Play Ground</li>
+	<li>Gymnasium</li> 
+	<li>Wifi Campus</li>
+	<li>Reading Hall</li>
+	<li>Seminar Hall</li>
+	</ul>
+	</div>
+	<div class="highlight">
+	<a href=""><b>Contact Us</b></a>
+	</div>
+	</div>
+	</div>
+<div class="main">
+	<!-- <div id="carouselExample" class="carousel slide">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="https://agri.kkwagh.edu.in/uploads/Banner/DSC04563.JPG" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://agri.kkwagh.edu.in/uploads/Banner/DSC04563.JPG" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://agri.kkwagh.edu.in/uploads/Banner/DSC04563.JPG" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div> -->
+<img id="xy" src="https://agri.kkwagh.edu.in/uploads/Banner/DSC04563.JPG">
+<div class="content">
+	<div class="content-anime">
+        <p>Academic Calendar</p><br>
+        Admission Enquiry Form for Academic Year 2024-25
+	</div>
+</div>
+<div  class="select"style="display flex;">
+<div class="welcome">
+ <div class="headline">
+ <h4>Welcome to, K.K.Wagh Agriculture & Agricultural Allied Colleges</h4>
+ </div>
+ <p>The long Cherished need of Agriculture Education was met with the initiation of the College of Agricultural Engineering & Technology in the year 2003, College of Agriculture in 2005, College of Agricultural Biotechnology in 2008, College of Food Technology in 2009, College of Agriculture Business Management in 2011 & College of Horticulture in 2013.</p>
+ <p>Agriculture and Allied Colleges are the premier educational institutes within jurisdiction of Mahatma Phule Krishi Vidyapeeth, Rahuri and are occupying a significant place on the Agricultural educational map of the state. All these colleges are well equipped, fully developed and accredited for excellence in quality education by Maharashtra Council of Agricultural Education and Research (MCAER), Pune. Agriculture and Allied colleges aims to cater the upcoming demands of the Agrarian economy by generating young workforce with knowhow of future ready technology in agriculture and allied fields. The Colleges have trained teaching faculty, blend of experienced and energetic persons committed to Teaching, Extension and Research. All these colleges having state of art infrastructure facilities in terms of building, laboratories, lecture halls, instructional and research farms, modern instruments/ equipments, farm machinery, library facilities, computer network with round the clock internet facility, transport and playground. Total built up area of Agriculture and Allied Colleges is 1, 75,000 sq. ft. All agriculture and allied colleges have their instructional and research farms at different locations viz; Mhasrul (3.63 ha), Makhamalabad (30.47 ha), Vilholi (8.71 ha), Shivangaon (45.00 ha), Babhaleshwar (32.29 ha), Madhavnagar (18.50 ha) in and around Nashik City. This land is utilized for seed production, cereal and pulses production, cultivation of fruits and vegetables, demonstration of seasonal crops etc. Colleges provides quality seed of soybean, wheat, gram, black gram and also planting material of mango, sapota, pomegranate, custard apple, guava, lemon, tamarind and ornamental plants to farming community. Shednet, Polyhouse, Bio-agents production unit, Nursery, Testing and Consultancy units are established at college farms.</p>
+ </div>
+ <div>
+ <div class="Latest_News">
+ <div>
+ <div class="head">
+	<div class="head-scroll">
+       <h4>Latest News</h4>
+	</div>
+ </div>
+ </div>
+</div>
+<div class="Latest_News">
+ <div>
+ <div class="head">
+	<div class="head-scroll">
+      <h4>Notice</h4>
+	</div>
+ </div>
+ <p> Time-table of Semester End Examination</p>
+ </div>
+</div>
+</div>
+</div>
+<!--vision part-->
+<div class="Vision" style="padding:30px;">
+<div class="headline">
+ <h2 style="text-align:left-side;">Vision</h2>
+ </div>
+ <p>Empowerment of students through need based agriculture education pertaining to efficient utilization of natural resources for sustainable agriculture development.</p>
+ </div>
+ <!--MISSION PART-->
+ <div class="Vision" style="padding:30px;">
+<div class="headline">
+ <h2 style="text-align:left-side;">Mission</h2>
+ <ul>
+  <li>To transform agriculture sector in to growth engine of Indian economy.</li>
+  <li>To secure food and nutritional security of the people of India and the World.</li>
+  <li>To protect the environment by dissemination of eco friendly sustainable farming practices.</li>
+  </ul>
+ </div>
+ <ul>
+  <li>To transform agriculture sector in to growth engine of Indian economy.</li>
+  <li>To secure food and nutritional security of the people of India and the World.</li>
+  <li>To protect the environment by dissemination of eco friendly sustainable farming practices.</li>
+  </ul>
+ </div>
+</div>
+</DIV>
+</div>
+<footer>
+<div class="foot">
+<div>
+<a href="">Home</a>
+</div>
+<div>
+<a href="">President Message</a>
+</div>
+<div>
+<a href="">Board of Director</a>
+</div>
+<div>
+<a href="">Advrsory Commitee</a>
+</div>
+<div>
+<a href="">Institute Run by Socitey</a>
+</div>
+<div>
+<a href="">Technical Advisor</a>
+</div>
+</div>
+<div class="adress">
+<p> K. K. Wagh Agriculture and Allied Colleges , Saraswati nagar, Panchavati, Nashik -
+422 003 Maharashtra,</p>
+<div class="email">
+   <i class="fa-regular fa-envelope"></i>
+   <a href="#">disp-agri@kkwagh.edu.in</a>
+</div>
+ <div class="contac">
+  <i class="fa-regular fa-phone"></i>
+  <a href="#">(+91)(0253)2555202,2555224,2555221</a>
+  </div>
+ </div>
+ <div>
+	<form>
+	<div>
+	<input type="text" name="username" placeholder="Enter Your Name"> 
+	</div>
+	<div>
+	<input type="email" name="email" placeholder="Email"> 
+	</div>
+	<div>
+	<input type="text" name="subject" placeholder="Subject"> 
+	</div>
+	<div>
+	<textarea placeholder="Your Questions" name="input" rows="4"></textarea>
+	</div>
+	<br>
+	<input type="submit" value="Submit" style="background-color:#630b62;">
+	</div>
+</footer>
+<script src="kkwagh.js"></script>
+</body>
+</html>
